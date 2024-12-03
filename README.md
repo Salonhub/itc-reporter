@@ -1,10 +1,11 @@
 # iTunes Connect Reporter (ITC Reporter)
 
-[![Author](http://img.shields.io/badge/author-@mikebarlow-red.svg?style=flat-square)](https://twitter.com/mikebarlow)
-[![Source Code](http://img.shields.io/badge/source-mikebarlow/itc--reporter-brightgreen.svg?style=flat-square)](https://github.com/mikebarlow/itc-reporter)
-[![Latest Version](https://img.shields.io/github/release/mikebarlow/itc-reporter.svg?style=flat-square)](https://github.com/mikebarlow/itc-reporter/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/mikebarlow/itc-reporter/blob/master/LICENSE)
-[![Build Status](https://img.shields.io/travis/mikebarlow/itc-reporter/master.svg?style=flat-square)](https://travis-ci.org/mikebarlow/itc-reporter)
+This project is a fork of the orignial ITC Reporter created by Mike Barlow for use in Salonhub. It contains only minor changes to keep it working.
+
+[![Source Code](http://img.shields.io/badge/source-salonhub/itc--reporter-brightgreen.svg?style=flat-square)](https://github.com/salonhub/itc-reporter)
+[![Latest Version](https://img.shields.io/github/release/salonhub/itc-reporter.svg?style=flat-square)](https://github.com/salonhub/itc-reporter/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/salonhub/itc-reporter/blob/master/LICENSE)
+
 
 ## Introduction
 
@@ -20,8 +21,8 @@ This is the first PHP Composer based port of the Reporter tool and attempts to m
 
 ITC-Reporter requires the following:
 
-* "php": ">=5.5.0"
-* "guzzlehttp/guzzle": "6.*"
+* "php": ">=7.3.0"
+* "guzzlehttp/guzzle": "7.*"
 * "snscripts/result": "1.0.*"
 
 And the following if you wish to run in dev mode and run tests.
@@ -35,13 +36,13 @@ And the following if you wish to run in dev mode and run tests.
 
 Simplest installation is via composer.
 
-	composer require snscripts/itc-reporter 2.*
+	composer require salonhub/itc-reporter 2.*
 
 or adding to your projects `composer.json` file.
 
 	{
 	    "require": {
-	        "snscripts/itc-reporter": "2.*"
+	        "salonhub/itc-reporter": "2.*"
 	    }
 	}
 
